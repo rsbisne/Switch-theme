@@ -1,5 +1,10 @@
+import ThemeSwitch from "./ThemeSwitch";
 function App() {
-  return <div>hello</div>;
+  return (
+    <div>
+      <ThemeSwitch />
+    </div>
+  );
 }
 
 export default App;
